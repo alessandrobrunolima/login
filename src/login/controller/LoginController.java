@@ -12,7 +12,10 @@ public class LoginController {
 		if (password == null || password.trim().isEmpty())
 			throw new Exception("Password not informed");
 
-		if (!(username.equals("leocastilho@gmail.com") && password.equals("123456")))
+		if (!(username.equals("leonardosiqueira@gea.inatel.br") && password.equals("123456")))
+			throw new Exception("Invalid user or password");
+
+		if (!(username.equals("admin") && password.equals("admin")))
 			throw new Exception("Invalid user or password");
 
 	}
