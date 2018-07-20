@@ -82,7 +82,7 @@ public class Login extends JFrame {
 
 	private JLabel getLblTitle() {
 		if (lblTitle == null) {
-			lblTitle = new JLabel("LOGIN");
+			lblTitle = new JLabel("Login");
 			lblTitle.setBounds(10, 10, 424, 40);
 			lblTitle.setHorizontalAlignment(SwingConstants.CENTER);
 			lblTitle.setFont(new Font("Dialog", Font.BOLD, 16));
